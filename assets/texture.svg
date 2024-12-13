@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 256" width="64px" height="64px">
+  <style type="text/css">
+    @keyframes ld-pulse
+{
+  0% {
+    animation-timing-function: cubic-bezier(0.0413,0.3905,0.5086,0.6902);
+    transform: scale(1);
+  }
+  24.3% {
+    animation-timing-function: cubic-bezier(0.2248,0.6332,0.5246,1);
+    transform: scale(0.8458);
+  }
+  55% {
+    animation-timing-function: cubic-bezier(0.3036,0.3393,0.655,0.6144);
+    transform: scale(0.8022);
+  }
+  70.2% {
+    animation-timing-function: cubic-bezier(0.4464,0.2728,0.5562,0.7288);
+    transform: scale(0.8294);
+  }
+  82.3% {
+    animation-timing-function: cubic-bezier(0.6826,0.1845,1,0.7358);
+    transform: scale(0.869);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.ld.ld-pulse {
+  animation: ld-pulse 0.5s infinite;
+}
+    @keyframes ld-move {
+      0% { transform: translate(0,0) }
+      100% { transform: translate(256px,0) }
+    }
+  </style>
+  <defs><g id="id-0.5945185112461584">
+    
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+
+<path fill="#F7B26A" d="M0,64c35.346,0,64-28.654,64-64C28.654,0,0,28.654,0,64z"/>
+<path fill="#F5E169" d="M64,0c0,35.346,28.654,64,64,64C128,28.654,99.346,0,64,0z"/>
+<path fill="#F7B26A" d="M0,64c0,35.346,28.654,64,64,64C64,92.654,35.346,64,0,64z"/>
+<path fill="#FEE2C5" d="M64,128c35.346,0,64-28.654,64-64C92.654,64,64,92.654,64,128z"/>
+<path fill="#F5E169" d="M128,64c35.346,0,64-28.654,64-64C156.654,0,128,28.654,128,64z"/>
+<path fill="#F4E6C8" d="M192,0c0,35.346,28.654,64,64,64C256,28.654,227.346,0,192,0z"/>
+<path fill="#F7B26A" d="M128,64c0,35.346,28.654,64,64,64C192,92.654,163.346,64,128,64z"/>
+<path fill="#F5E169" d="M192,128c35.346,0,64-28.654,64-64C220.654,64,192,92.654,192,128z"/>
+<path fill="#F5E169" d="M0,192c35.346,0,64-28.654,64-64C28.654,128,0,156.654,0,192z"/>
+<path fill="#F4E6C8" d="M64,128c0,35.346,28.654,64,64,64C128,156.654,99.346,128,64,128z"/>
+<path fill="#FEE2C5" d="M0,192c0,35.346,28.654,64,64,64C64,220.654,35.346,192,0,192z"/>
+<path fill="#FEE2C5" d="M64,256c35.346,0,64-28.654,64-64C92.654,192,64,220.654,64,256z"/>
+<path fill="#FEE2C5" d="M128,192c35.346,0,64-28.654,64-64C156.654,128,128,156.654,128,192z"/>
+<path fill="#F7B26A" d="M192,128c0,35.346,28.654,64,64,64C256,156.654,227.346,128,192,128z"/>
+<path fill="#F7B26A" d="M128,192c0,35.346,28.654,64,64,64C192,220.654,163.346,192,128,192z"/>
+<path fill="#F5E169" d="M192,256c35.346,0,64-28.654,64-64C220.654,192,192,220.654,192,256z"/>
+
+
+  </g></defs>
+  <rect x="0" y="0" fill="#FFF7E9" width="256" height="256"/>
+  <g>
+    <use xlink:href="#id-0.5945185112461584" x="-256" y="-256"/><use xlink:href="#id-0.5945185112461584" x="0" y="-256"/><use xlink:href="#id-0.5945185112461584" x="256" y="-256"/><use xlink:href="#id-0.5945185112461584" x="-256" y="0"/><use xlink:href="#id-0.5945185112461584" x="0" y="0"/><use xlink:href="#id-0.5945185112461584" x="256" y="0"/><use xlink:href="#id-0.5945185112461584" x="-256" y="256"/><use xlink:href="#id-0.5945185112461584" x="0" y="256"/><use xlink:href="#id-0.5945185112461584" x="256" y="256"/>
+    <animateTransform attributeName="transform" type="translate" dur="4s" repeatCount="indefinite" keyTimes="0;1" values="0;256"/>
+  </g>
+</svg>
